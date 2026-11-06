@@ -1,0 +1,158 @@
+
+
+    /* GENERAL PAGE STYLING */
+*{
+    box-sizing: border-box;
+}
+        body {
+    background-color: #f7f5f2;
+    color: #383431;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight:normal;
+    text-align: center;
+    margin:0;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 55px 20px 25px;
+}
+    h1 {
+        color: #785b55;
+        font-size: 44px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin: 0 0 10px;
+    }
+
+    header h3{
+        color: #88817d;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.8;
+        margin-top: 18px;
+    }
+
+    h2 {
+        color: #785b55;
+        font-size: 21px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        border-bottom: 1px solid #e5dcd7;
+        padding-bottom: 12px;
+        margin: 0 0 22px;
+        
+    }
+
+    h3 {
+        color: #77716e;
+        font-size: 14px;
+        font-weight: normal;
+
+    }
+
+    header p {
+        margin: 10px 0;
+    }
+.heading {
+    color: #785b55;
+    text-shadow: none;
+}
+
+/* LINKS */
+    a {
+        color: #987267;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    a:hover {
+        color: #523b35;
+        text-decoration: underline;
+    }
+
+.flex-item {
+    padding: 35px 30px;
+    background-color: #ffffff;
+    border: 1px solid #eee9e5;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px rgba(70, 50, 40, 0.04);
+    text-align: left;
+    transition: box-shadow 0.2s;
+}
+
+.flex-item:hover {
+    box-shadow: 0 8px 30px rgba(70, 50, 40, 0.09);
+}
+
+
+/*PARAGRAPHS*/
+.flex-item p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.flex-item h3 {
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+/*LISTS*/
+
+.skills {
+    list-style-type: square;
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+
+.responsibilities {
+    list-style-type: square;
+    list-style-position: outside;
+    padding-left: 22px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+li{
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+li::marker {
+    color: #ad8980;
+}
+
+/*KEYWORDS*/
+
+.keyword {
+    color: #7a5c58;
+    font-weight: bold;
+    text-decoration: underline;    
+}
+/*FOOTER*/
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 700px) {
+
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .flex-item {
+        padding: 20px;
+    }
+}
+   
